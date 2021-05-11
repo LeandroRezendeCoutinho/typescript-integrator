@@ -12,7 +12,7 @@ async function run() {
     const data = await processor.process(sales)
     const response = await sender.send(data)
     if (response.status === 200) {
-      console.log(`In tegration ${index}`);
+      console.log(`Integration ${index}`);
     }
   }
 }
