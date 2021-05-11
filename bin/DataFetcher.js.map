@@ -1,1 +1,0 @@
-{"version":3,"file":"DataFetcher.js","sourceRoot":"","sources":["../src/DataFetcher.ts"],"names":[],"mappings":";;;;;AAAA,kDAA6C;AAG7C,MAAqB,WAAW;IAC9B;IACA,CAAC;IAED,KAAK,CAAC,SAAS;QACb,MAAM,QAAQ,GAAG,MAAM,eAAK,CAAC,GAAG,CAAC,4BAA4B,CAAC,CAAA;QAE9D,OAAO,QAAQ,CAAC,IAAI,CAAA;IACtB,CAAC;CAEF;AAVD,8BAUC"}
