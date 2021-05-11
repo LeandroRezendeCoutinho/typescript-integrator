@@ -25,8 +25,6 @@ export default class DataProcessor {
         }
 
         returnList.push(saleResume)
-
-        console.log(element)
       }
     }
 

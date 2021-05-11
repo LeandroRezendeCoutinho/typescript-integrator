@@ -1,0 +1,1 @@
+{"version":3,"file":"DataSender.js","sourceRoot":"","sources":["../src/DataSender.ts"],"names":[],"mappings":";;;;;AAAA,kDAA6C;AAG7C,MAAqB,UAAU;IAC7B;IACA,CAAC;IAED,KAAK,CAAC,IAAI,CAAC,IAAY;QACrB,MAAM,QAAQ,GAAG,MAAM,eAAK,CAAC,IAAI,CAAC,+BAA+B,EAAE,IAAI,CAAC,CAAA;QACxE,OAAO,QAAQ,CAAA;IACjB,CAAC;CACF;AARD,6BAQC"}
