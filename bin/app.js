@@ -7,7 +7,7 @@ const DataFetcher_1 = __importDefault(require("./DataFetcher"));
 const DataProcessor_1 = __importDefault(require("./DataProcessor"));
 const DataSender_1 = __importDefault(require("./DataSender"));
 async function run() {
-    for (let index = 0; index < 10; index++) {
+    for (let index = 0; index < 100000; index++) {
         const fetcher = new DataFetcher_1.default();
         const processor = new DataProcessor_1.default();
         const sender = new DataSender_1.default();

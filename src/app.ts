@@ -4,7 +4,7 @@ import DataSender from "./DataSender";
 
 async function run() {
 
-  for (let index = 0; index < 10; index++) {
+  for (let index = 0; index < 100_000; index++) {
     const fetcher = new DataFetcher()
     const processor = new DataProcessor()
     const sender = new DataSender()

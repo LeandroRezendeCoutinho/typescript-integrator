@@ -1,12 +1,11 @@
-import axios, { AxiosResponse } from "axios";
-import { ISale } from "./Interfaces/ISale";
+import axios from "axios";
+import { Sale } from "./Sale";
 
 export default class DataSender {
   constructor() {
   }
 
-  async send(data:ISale[]) {
-    const response = await axios.post("http://localhost:4567/receive", data)
-    return response
+  async send(data: Sale[]) {
+    return await axios.post("http://localhost:4567/receive", data)
   }
 }

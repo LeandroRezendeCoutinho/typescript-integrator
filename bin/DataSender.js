@@ -8,8 +8,7 @@ class DataSender {
     constructor() {
     }
     async send(data) {
-        const response = await axios_1.default.post("http://localhost:4567/receive", data);
-        return response;
+        return await axios_1.default.post("http://localhost:4567/receive", data);
     }
 }
 exports.default = DataSender;
